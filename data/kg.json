@@ -1,0 +1,27 @@
+[
+  {
+    "subject": "INSAT-3D",
+    "predicate": "provides",
+    "object": "weather data"
+  },
+  {
+    "subject": "MOSDAC",
+    "predicate": "offers",
+    "object": "SST data"
+  },
+  {
+    "subject": "IRS-P4",
+    "predicate": "collects",
+    "object": "ocean color data"
+  },
+  {
+    "subject": "SST data",
+    "predicate": "used_for",
+    "object": "sea surface temperature monitoring"
+  },
+  {
+    "subject": "MOSDAC",
+    "predicate": "hosted_by",
+    "object": "ISRO"
+  }
+]
