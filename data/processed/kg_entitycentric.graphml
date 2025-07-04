@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="node_type" for="edge" attr.name="node_type" attr.type="string"/>
+<key id="source_url" for="edge" attr.name="source_url" attr.type="string"/>
+<key id="relationship" for="edge" attr.name="relationship" attr.type="string"/>
+<key id="type" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="KALPANA-1">
+  <data key="type">mission</data>
+</node>
+<node id="OCEANSAT-3">
+  <data key="type">mission</data>
+</node>
+<node id="INSAT-3DS">
+  <data key="type">mission</data>
+</node>
+<node id="SCATSAT-1">
+  <data key="type">mission</data>
+</node>
+<node id="SARAL-ALTIKA">
+  <data key="type">mission</data>
+</node>
+<node id="INSAT-3A">
+  <data key="type">mission</data>
+</node>
+<node id="INSAT-3D">
+  <data key="type">mission</data>
+</node>
+<node id="OCEANSAT-2">
+  <data key="type">mission</data>
+</node>
+<node id="INSAT-3DR">
+  <data key="type">mission</data>
+</node>
+<node id="current">
+  <data key="type">product</data>
+</node>
+<node id="sea surface">
+  <data key="type">product</data>
+</node>
+<node id="soil moisture">
+  <data key="type">product</data>
+</node>
+<node id="rainfall">
+  <data key="type">product</data>
+</node>
+<node id="wave">
+  <data key="type">product</data>
+</node>
+<node id="atmosphere">
+  <data key="type">product</data>
+</node>
+<node id="ice">
+  <data key="type">product</data>
+</node>
+<node id="cloud">
+  <data key="type">product</data>
+</node>
+<node id="ocean">
+  <data key="type">product</data>
+</node>
+<node id="https://www.mosdac.gov.in/insat-3dr"/>
+<node id="https://www.mosdac.gov.in/insat-3d"/>
+<node id="https://www.mosdac.gov.in/kalpana-1"/>
+<node id="https://www.mosdac.gov.in/insat-3a"/>
+<node id="https://www.mosdac.gov.in/saral-altika"/>
+<node id="https://www.mosdac.gov.in/oceansat-2"/>
+<node id="https://www.mosdac.gov.in/oceansat-3"/>
+<node id="https://www.mosdac.gov.in/insat-3ds"/>
+<node id="https://www.mosdac.gov.in/scatsat-1"/>
+<node id="https://www.mosdac.gov.in"/>
+<node id="https://www.mosdac.gov.in/"/>
+<node id="https://www.mosdac.gov.in/megha-tropiques"/>
+<node id="https://www.mosdac.gov.in/internal/gallery/current"/>
+<node id="https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall"/>
+<node id="https://www.mosdac.gov.in/gps-derived-integrated-water-vapour"/>
+<node id="https://www.mosdac.gov.in/gsmap-isro-rain"/>
+<node id="https://www.mosdac.gov.in/meteosat8-cloud-properties"/>
+<node id="https://www.mosdac.gov.in/3d-volumetric-terls-dwrproduct"/>
+<node id="https://www.mosdac.gov.in/inland-water-height"/>
+<node id="https://www.mosdac.gov.in/river-discharge"/>
+<node id="https://www.mosdac.gov.in/soil-moisture-0"/>
+<node id="https://www.mosdac.gov.in/global-ocean-surface-current"/>
+<node id="https://www.mosdac.gov.in/high-resolution-sea-surface-salinity"/>
+<node id="https://www.mosdac.gov.in/indian-mainland-coastal-product"/>
+<node id="https://www.mosdac.gov.in/ocean-subsurface"/>
+<node id="https://www.mosdac.gov.in/oceanic-eddies-detection"/>
+<node id="https://www.mosdac.gov.in/sea-ice-occurrence-probability"/>
+<node id="https://www.mosdac.gov.in/wave-based-renewable-energy"/>
+<node id="https://www.mosdac.gov.in/rss-feed"/>
+<node id="https://www.mosdac.gov.in/insitu"/>
+<node id="https://www.mosdac.gov.in/calibration-reports"/>
+<node id="https://www.mosdac.gov.in/validation-reports"/>
+<node id="https://www.mosdac.gov.in/data-quality"/>
+<node id="https://www.mosdac.gov.in/weather-reports"/>
+<node id="https://www.mosdac.gov.in/atlases"/>
+<node id="https://www.mosdac.gov.in/tools"/>
+<node id="https://www.mosdac.gov.in/sitemap"/>
+<node id="https://www.mosdac.gov.in/help"/>
+<edge source="KALPANA-1" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/kalpana-1</data>
+</edge>
+<edge source="KALPANA-1" target="https://www.mosdac.gov.in/kalpana-1">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="OCEANSAT-3" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/oceansat-3</data>
+</edge>
+<edge source="OCEANSAT-3" target="https://www.mosdac.gov.in/oceansat-3">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="INSAT-3DS" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/insat-3ds</data>
+</edge>
+<edge source="INSAT-3DS" target="https://www.mosdac.gov.in/insat-3ds">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="SCATSAT-1" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/scatsat-1</data>
+</edge>
+<edge source="SCATSAT-1" target="https://www.mosdac.gov.in/scatsat-1">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="SARAL-ALTIKA" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/saral-altika</data>
+</edge>
+<edge source="SARAL-ALTIKA" target="https://www.mosdac.gov.in/saral-altika">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="INSAT-3A" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/insat-3a</data>
+</edge>
+<edge source="INSAT-3A" target="https://www.mosdac.gov.in/insat-3a">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="INSAT-3D" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/insat-3d</data>
+</edge>
+<edge source="INSAT-3D" target="https://www.mosdac.gov.in/insat-3d">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="OCEANSAT-2" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/oceansat-2</data>
+</edge>
+<edge source="OCEANSAT-2" target="https://www.mosdac.gov.in/oceansat-2">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="INSAT-3DR" target="ocean">
+  <data key="relationship">provides</data>
+  <data key="source_url">https://www.mosdac.gov.in/insat-3dr</data>
+</edge>
+<edge source="INSAT-3DR" target="https://www.mosdac.gov.in/insat-3dr">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="current" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/global-ocean-surface-current</data>
+</edge>
+<edge source="current" target="https://www.mosdac.gov.in/internal/gallery/current">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="current" target="https://www.mosdac.gov.in/global-ocean-surface-current">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="sea surface" target="https://www.mosdac.gov.in/high-resolution-sea-surface-salinity">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="soil moisture" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/soil-moisture-0</data>
+</edge>
+<edge source="soil moisture" target="https://www.mosdac.gov.in/soil-moisture-0">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="rainfall" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/gsmap-isro-rain</data>
+</edge>
+<edge source="rainfall" target="https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="rainfall" target="https://www.mosdac.gov.in/gsmap-isro-rain">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="wave" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/indian-mainland-coastal-product</data>
+</edge>
+<edge source="wave" target="https://www.mosdac.gov.in">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="wave" target="https://www.mosdac.gov.in/">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="wave" target="https://www.mosdac.gov.in/indian-mainland-coastal-product">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="wave" target="https://www.mosdac.gov.in/wave-based-renewable-energy">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="atmosphere" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/megha-tropiques</data>
+</edge>
+<edge source="atmosphere" target="https://www.mosdac.gov.in/megha-tropiques">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ice" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/sea-ice-occurrence-probability</data>
+</edge>
+<edge source="ice" target="https://www.mosdac.gov.in/sea-ice-occurrence-probability">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="cloud" target="ocean">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/meteosat8-cloud-properties</data>
+</edge>
+<edge source="cloud" target="https://www.mosdac.gov.in/meteosat8-cloud-properties">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="sea surface">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/high-resolution-sea-surface-salinity</data>
+</edge>
+<edge source="ocean" target="wave">
+  <data key="relationship">related_product</data>
+  <data key="source_url">https://www.mosdac.gov.in/wave-based-renewable-energy</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/insat-3dr">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/insat-3d">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/kalpana-1">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/insat-3a">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/megha-tropiques">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/saral-altika">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/oceansat-2">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/oceansat-3">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/insat-3ds">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/scatsat-1">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/internal/gallery/current">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/gps-derived-integrated-water-vapour">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/gsmap-isro-rain">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/meteosat8-cloud-properties">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/3d-volumetric-terls-dwrproduct">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/inland-water-height">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/river-discharge">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/soil-moisture-0">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/global-ocean-surface-current">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/high-resolution-sea-surface-salinity">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/indian-mainland-coastal-product">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/ocean-subsurface">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/oceanic-eddies-detection">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/sea-ice-occurrence-probability">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/wave-based-renewable-energy">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/rss-feed">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/insitu">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/calibration-reports">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/validation-reports">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/data-quality">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/weather-reports">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/atlases">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/tools">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/sitemap">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+<edge source="ocean" target="https://www.mosdac.gov.in/help">
+  <data key="relationship">described_in</data>
+  <data key="node_type">page</data>
+</edge>
+</graph></graphml>

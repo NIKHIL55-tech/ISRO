@@ -1,0 +1,16 @@
+requests
+beautifulsoup4
+aiohttp
+selenium
+networkx
+matplotlib
+textstat
+nltk
+pandas
+PyPDF2
+pdfplumber
+python-docx
+openpyxl
+pillow
+python-magic
+feedparser

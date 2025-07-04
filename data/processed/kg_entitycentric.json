@@ -1,0 +1,663 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "mission",
+      "id": "KALPANA-1"
+    },
+    {
+      "type": "mission",
+      "id": "OCEANSAT-3"
+    },
+    {
+      "type": "mission",
+      "id": "INSAT-3DS"
+    },
+    {
+      "type": "mission",
+      "id": "SCATSAT-1"
+    },
+    {
+      "type": "mission",
+      "id": "SARAL-ALTIKA"
+    },
+    {
+      "type": "mission",
+      "id": "INSAT-3A"
+    },
+    {
+      "type": "mission",
+      "id": "INSAT-3D"
+    },
+    {
+      "type": "mission",
+      "id": "OCEANSAT-2"
+    },
+    {
+      "type": "mission",
+      "id": "INSAT-3DR"
+    },
+    {
+      "type": "product",
+      "id": "current"
+    },
+    {
+      "type": "product",
+      "id": "sea surface"
+    },
+    {
+      "type": "product",
+      "id": "soil moisture"
+    },
+    {
+      "type": "product",
+      "id": "rainfall"
+    },
+    {
+      "type": "product",
+      "id": "wave"
+    },
+    {
+      "type": "product",
+      "id": "atmosphere"
+    },
+    {
+      "type": "product",
+      "id": "ice"
+    },
+    {
+      "type": "product",
+      "id": "cloud"
+    },
+    {
+      "type": "product",
+      "id": "ocean"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/insat-3dr"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/insat-3d"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/kalpana-1"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/insat-3a"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/saral-altika"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/oceansat-2"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/oceansat-3"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/insat-3ds"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/scatsat-1"
+    },
+    {
+      "id": "https://www.mosdac.gov.in"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/megha-tropiques"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/internal/gallery/current"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/gps-derived-integrated-water-vapour"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/gsmap-isro-rain"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/meteosat8-cloud-properties"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/3d-volumetric-terls-dwrproduct"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/inland-water-height"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/river-discharge"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/soil-moisture-0"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/global-ocean-surface-current"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/high-resolution-sea-surface-salinity"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/indian-mainland-coastal-product"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/ocean-subsurface"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/oceanic-eddies-detection"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/sea-ice-occurrence-probability"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/wave-based-renewable-energy"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/rss-feed"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/insitu"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/calibration-reports"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/validation-reports"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/data-quality"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/weather-reports"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/atlases"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/tools"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/sitemap"
+    },
+    {
+      "id": "https://www.mosdac.gov.in/help"
+    }
+  ],
+  "links": [
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/kalpana-1",
+      "source": "KALPANA-1",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "KALPANA-1",
+      "target": "https://www.mosdac.gov.in/kalpana-1"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/oceansat-3",
+      "source": "OCEANSAT-3",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "OCEANSAT-3",
+      "target": "https://www.mosdac.gov.in/oceansat-3"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/insat-3ds",
+      "source": "INSAT-3DS",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "INSAT-3DS",
+      "target": "https://www.mosdac.gov.in/insat-3ds"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/scatsat-1",
+      "source": "SCATSAT-1",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "SCATSAT-1",
+      "target": "https://www.mosdac.gov.in/scatsat-1"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/saral-altika",
+      "source": "SARAL-ALTIKA",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "SARAL-ALTIKA",
+      "target": "https://www.mosdac.gov.in/saral-altika"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/insat-3a",
+      "source": "INSAT-3A",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "INSAT-3A",
+      "target": "https://www.mosdac.gov.in/insat-3a"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/insat-3d",
+      "source": "INSAT-3D",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "INSAT-3D",
+      "target": "https://www.mosdac.gov.in/insat-3d"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/oceansat-2",
+      "source": "OCEANSAT-2",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "OCEANSAT-2",
+      "target": "https://www.mosdac.gov.in/oceansat-2"
+    },
+    {
+      "relationship": "provides",
+      "source_url": "https://www.mosdac.gov.in/insat-3dr",
+      "source": "INSAT-3DR",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "INSAT-3DR",
+      "target": "https://www.mosdac.gov.in/insat-3dr"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/global-ocean-surface-current",
+      "source": "current",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "current",
+      "target": "https://www.mosdac.gov.in/internal/gallery/current"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "current",
+      "target": "https://www.mosdac.gov.in/global-ocean-surface-current"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "sea surface",
+      "target": "https://www.mosdac.gov.in/high-resolution-sea-surface-salinity"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/soil-moisture-0",
+      "source": "soil moisture",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "soil moisture",
+      "target": "https://www.mosdac.gov.in/soil-moisture-0"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/gsmap-isro-rain",
+      "source": "rainfall",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "rainfall",
+      "target": "https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "rainfall",
+      "target": "https://www.mosdac.gov.in/gsmap-isro-rain"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/indian-mainland-coastal-product",
+      "source": "wave",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "wave",
+      "target": "https://www.mosdac.gov.in"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "wave",
+      "target": "https://www.mosdac.gov.in/"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "wave",
+      "target": "https://www.mosdac.gov.in/indian-mainland-coastal-product"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "wave",
+      "target": "https://www.mosdac.gov.in/wave-based-renewable-energy"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/megha-tropiques",
+      "source": "atmosphere",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "atmosphere",
+      "target": "https://www.mosdac.gov.in/megha-tropiques"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/sea-ice-occurrence-probability",
+      "source": "ice",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ice",
+      "target": "https://www.mosdac.gov.in/sea-ice-occurrence-probability"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/meteosat8-cloud-properties",
+      "source": "cloud",
+      "target": "ocean"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "cloud",
+      "target": "https://www.mosdac.gov.in/meteosat8-cloud-properties"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/high-resolution-sea-surface-salinity",
+      "source": "ocean",
+      "target": "sea surface"
+    },
+    {
+      "relationship": "related_product",
+      "source_url": "https://www.mosdac.gov.in/wave-based-renewable-energy",
+      "source": "ocean",
+      "target": "wave"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/insat-3dr"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/insat-3d"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/kalpana-1"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/insat-3a"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/megha-tropiques"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/saral-altika"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/oceansat-2"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/oceansat-3"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/insat-3ds"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/scatsat-1"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/internal/gallery/current"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/gps-derived-integrated-water-vapour"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/gsmap-isro-rain"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/meteosat8-cloud-properties"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/3d-volumetric-terls-dwrproduct"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/inland-water-height"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/river-discharge"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/soil-moisture-0"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/global-ocean-surface-current"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/high-resolution-sea-surface-salinity"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/indian-mainland-coastal-product"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/ocean-subsurface"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/oceanic-eddies-detection"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/sea-ice-occurrence-probability"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/wave-based-renewable-energy"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/rss-feed"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/insitu"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/calibration-reports"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/validation-reports"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/data-quality"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/weather-reports"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/atlases"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/tools"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/sitemap"
+    },
+    {
+      "relationship": "described_in",
+      "node_type": "page",
+      "source": "ocean",
+      "target": "https://www.mosdac.gov.in/help"
+    }
+  ]
+}
