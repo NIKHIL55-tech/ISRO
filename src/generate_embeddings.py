@@ -13,7 +13,7 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 chroma_client = chromadb.Client()
 collection = chroma_client.get_or_create_collection("mosdac_docs")
 
-processed_dir = "ISRO/data/processed/"
+processed_dir = "data/processed/"
 
 for file in os.listdir(processed_dir):
     if file.endswith(".json"):
