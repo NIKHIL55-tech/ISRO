@@ -1,0 +1,33 @@
+# Core NLP & ML
+transformers==4.41.1
+sentence-transformers==2.7.0
+torch>=2.0.0
+scikit-learn
+
+# Vector DB (ChromaDB)
+chromadb==0.4.24
+hnswlib
+
+# Web Scraping
+beautifulsoup4
+requests
+lxml
+
+# Knowledge Graphs
+networkx
+
+# FastAPI or Streamlit (for backend/frontend)
+fastapi
+uvicorn
+streamlit
+
+# Utilities
+tqdm
+pandas
+numpy
+
+# Environment and Configuration
+python-dotenv
+
+# Testing
+pytest

@@ -1,20 +1,17 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+import logging
+
+# Suppress tokenizer warnings
+logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)
 
 MODEL_NAME = "google/flan-t5-base"
 
-# Load tokenizer and model
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
 
-# Build pipeline (disable internal max_length conflict)
-pipe = pipeline(
-    "text2text-generation",
-    model=model,
-    tokenizer=tokenizer,
-    return_full_text=False  # Prevents repeating input in output
-)
+pipe = pipeline("text2text-generation", model=model, tokenizer=tokenizer)
 
-# Generate response
 def generate_response(prompt: str) -> str:
-    result = pipe(prompt)
-    return result[0]['generated_text'].strip()
+    # Avoid unsupported kwargs like 'return_full_text'
+    result = pipe(prompt, max_new_tokens=256)  
+    return result[0]['generated_text'].replace(prompt, "").strip()
