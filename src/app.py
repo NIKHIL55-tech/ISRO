@@ -1,56 +1,43 @@
-# from fastapi import FastAPI
-# from fastapi.middleware.cors import CORSMiddleware
+# src/app.py
 
-# app = FastAPI(title="MOSDAC AI HelpBot")
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=["*"],
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
-
-# @app.get("/")
-# def root():
-#     return {"message": "MOSDAC API is running!"}
-
-# @app.post("/query")
-# def query_handler(query: dict):
-#     user_query = query.get("query", "")
-#     # TODO: Later integrate KG or RAG pipeline here
-#     return {"response": f"You asked: {user_query}. This is a placeholder response."}
-
-
-from fastapi import FastAPI, Request
-from fastapi.middleware.cors import CORSMiddleware
-from src.vector_search import vector_search
-# from src.kg_search import kg_query  # Optional: use if Member A's KG is ready
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from typing import List, Optional
+from src.query import QueryProcessor
+from llm.llm_client import LLMClient
 
 app = FastAPI()
 
-# Allow frontend to call the backend API
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+class Query(BaseModel):
+    text: str
+    filters: Optional[dict] = None
 
-@app.get("/")
-def read_root():
-    return {"message": "MOSDAC API is running!"}
+class Response(BaseModel):
+    answer: str
+    confidence: float
+    sources: List[dict]
 
-@app.post("/vector-query")
-async def vector_query_handler(request: Request):
-    data = await request.json()
-    user_query = data.get("query", "")
-    response = vector_search(user_query)
-    return {"response": response}
+# Initialize components
+query_processor = QueryProcessor()
+llm_client = LLMClient()
 
-# Optional: enable when KG is ready
-# @app.post("/kg-query")
-# async def kg_query_handler(request: Request):
-#     data = await request.json()
-#     user_query = data.get("query", "")
-#     response = kg_query(user_query)
-#     return {"response": response}
+@app.post("/query")
+async def process_query(query: Query):
+    try:
+        # Process query
+        results = query_processor.process_query(query.text)
+        
+        # Generate response
+        response = llm_client.generate_response(
+            query=query.text,
+            context=results['results']['documents'][0]
+        )
+        
+        return Response(
+            answer=response['text'],
+            confidence=response['confidence'],
+            sources=[{"title": m["title"], "url": m["url"]} 
+                    for m in results['results']['metadatas'][0]]
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

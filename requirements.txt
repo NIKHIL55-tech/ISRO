@@ -1,22 +1,69 @@
+# ========================
+# 🧠 Core ML / NLP Libraries
+# ========================
+torch>=1.13.1
+transformers==4.30.2
+sentence-transformers==2.2.2
+datasets>=2.14.0
+accelerate>=0.20.0
+scikit-learn
+spacy
+nltk
+textstat
 
+# ========================
+# 📊 Data Processing & Utilities
+# ========================
+pandas>=1.5.0
+numpy>=1.21.0
+tqdm>=4.64.0
+matplotlib
+python-dotenv
+
+# ========================
+# 🔍 Vector Database (RAG)
+# ========================
+chromadb==0.4.24
+
+# ========================
+# 🌐 Web Scraping & Parsing
+# ========================
+beautifulsoup4
+requests
+aiohttp
+selenium
+lxml
+feedparser
+
+# ========================
+# 🌐 Knowledge Graphs
+# ========================
+networkx
+
+# ========================
+# ⚙️ Backend & Frontend
+# ========================
 fastapi
 uvicorn
 streamlit
-requests
-requests
-beautifulsoup4
-aiohttp
-selenium
-networkx
-matplotlib
-textstat
-nltk
-pandas
+
+# ========================
+# 📄 Document Processing
+# ========================
 PyPDF2
 pdfplumber
 python-docx
 openpyxl
 pillow
 python-magic
-feedparser
 
+# ========================
+# ✅ Testing
+# ========================
+pytest
+
+# ========================
+# 📈 Optional Monitoring
+# ========================
+tensorboard>=2.12.0
+wandb>=0.15.0
