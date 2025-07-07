@@ -386,3 +386,31 @@ ISRO/
     └── utils/                   # Utility modules
         ├── kg_utils.py          # Knowledge graph utilities
         └── text_utils.py        # Text/data processing utilities
+
+
+
+
+        # MOSDAC AI Help Bot 🚀
+
+An intelligent Question-Answering system for the [MOSDAC](https://www.mosdac.gov.in) portal that retrieves context-aware answers using semantic search and natural language understanding. This bot is designed to help users query satellite data, understand products, and access information efficiently using local models and document embeddings.
+
+---
+
+## 🔍 Key Features
+
+- **Query Understanding**
+  - Preprocessing (cleaning, spell check, abbreviation expansion)
+  - Domain-specific tokenization
+  - Intent classification (custom-trained using Scikit-learn)
+  - Entity extraction using **TF-IDF** from document corpus
+
+- **Document Embedding & Search**
+  - Chunked documents embedded using `sentence-transformers` (`all-MiniLM-L6-v2`)
+  - Vector database powered by **ChromaDB**
+  - Top-K similarity search and reranking with entity-based scoring
+
+---
+
+## 🗂 Project Structure
+
+
