@@ -1,0 +1,466 @@
+2025-07-08 17:34:58,005 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:34:58,298 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:34:58,733 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:34:58,744 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:34:58,762 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:34:58,770 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:34:58,793 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:34:58,809 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:34:58,822 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:34:58,835 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:34:58,842 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:34:59,052 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:34:59,065 - __main__ - ERROR - Error testing TF-IDF retriever:
+Traceback (most recent call last):
+  File "D:\ISRO_hack\ISRO\scripts\test_tfidf.py", line 41, in test_tfidf_retriever
+    logger.info(f"Available collections: {[c.name for c in collections]}")
+                                           ^^^^^^
+  File "D:\ISRO_hack\ISRO\venv\Lib\site-packages\chromadb\api\models\Collection.py", line 418, in __getattr__
+    raise NotImplementedError(
+NotImplementedError: In Chroma v0.6.0, list_collections only returns collection names. Use Client.get_collection(mosdac_documents) to access name. See https://docs.trychroma.com/deployment/migration for more information.
+2025-07-08 17:34:59,416 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:35:00,456 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:36:21,904 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:36:22,040 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:36:22,207 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:36:22,209 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:36:22,209 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:36:22,210 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:36:22,219 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:36:22,219 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:36:22,219 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:36:22,219 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:36:22,219 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:36:22,254 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:36:22,256 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:36:22,256 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:36:22,256 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:36:22,257 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:36:22,258 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:36:22,269 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 10 documents
+2025-07-08 17:36:22,298 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:36:22,299 - src.retrieval.tfidf_retriever - DEBUG - Found 10 documents in collection
+2025-07-08 17:36:22,305 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:36:22,306 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:36:22,307 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:36:22,310 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:36:22,312 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 10 documents
+2025-07-08 17:36:22,314 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:36:22,606 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 89 features
+2025-07-08 17:36:22,607 - __main__ - INFO - Successfully loaded 10 documents
+2025-07-08 17:36:22,608 - __main__ - INFO - Sample documents:
+2025-07-08 17:36:22,608 - __main__ - INFO - Document 1:
+2025-07-08 17:36:22,608 - __main__ - INFO -   ID: doc_0_1751971937
+2025-07-08 17:36:22,608 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:36:22,609 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:36:22,609 - __main__ - INFO - Document 2:
+2025-07-08 17:36:22,610 - __main__ - INFO -   ID: doc_1_1751971937
+2025-07-08 17:36:22,610 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:36:22,611 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:36:22,612 - __main__ - INFO - Document 3:
+2025-07-08 17:36:22,612 - __main__ - INFO -   ID: doc_2_1751971937
+2025-07-08 17:36:22,612 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:36:22,614 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:36:22,615 - __main__ - INFO - 
+Testing search with query: 'MOSDAC'
+2025-07-08 17:36:22,615 - __main__ - ERROR - Error testing TF-IDF retriever:
+Traceback (most recent call last):
+  File "D:\ISRO_hack\ISRO\scripts\test_tfidf.py", line 78, in test_tfidf_retriever
+    results = tfidf.retrieve(query=test_query, top_k=3)
+              ^^^^^^^^^^^^^^
+AttributeError: 'TfidfRetriever' object has no attribute 'retrieve'
+2025-07-08 17:36:22,750 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:36:24,071 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:38:00,980 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:38:01,137 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:38:01,326 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:38:01,326 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:38:01,326 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:38:01,326 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:38:01,332 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:38:01,332 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:38:01,332 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:38:01,332 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:38:01,332 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:38:01,362 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:38:01,363 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:38:01,363 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:38:01,363 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:38:01,364 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:38:01,366 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:38:01,378 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 10 documents
+2025-07-08 17:38:01,402 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:38:01,402 - src.retrieval.tfidf_retriever - DEBUG - Found 10 documents in collection
+2025-07-08 17:38:01,403 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:38:01,403 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:38:01,403 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:38:01,404 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:38:01,404 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 10 documents
+2025-07-08 17:38:01,404 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:38:01,407 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 89 features
+2025-07-08 17:38:01,407 - __main__ - INFO - Successfully loaded 10 documents
+2025-07-08 17:38:01,407 - __main__ - INFO - Sample documents:
+2025-07-08 17:38:01,407 - __main__ - INFO - Document 1:
+2025-07-08 17:38:01,408 - __main__ - INFO -   ID: doc_0_1751971937
+2025-07-08 17:38:01,408 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:38:01,408 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:38:01,408 - __main__ - INFO - Document 2:
+2025-07-08 17:38:01,408 - __main__ - INFO -   ID: doc_1_1751971937
+2025-07-08 17:38:01,408 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:38:01,408 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:38:01,409 - __main__ - INFO - Document 3:
+2025-07-08 17:38:01,409 - __main__ - INFO -   ID: doc_2_1751971937
+2025-07-08 17:38:01,409 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:38:01,409 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:38:01,409 - __main__ - INFO - 
+Testing search with query: 'MOSDAC'
+2025-07-08 17:38:01,409 - __main__ - ERROR - Error testing TF-IDF retriever:
+Traceback (most recent call last):
+  File "D:\ISRO_hack\ISRO\scripts\test_tfidf.py", line 78, in test_tfidf_retriever
+    results = tfidf.query(query=test_query, top_k=3)
+              ^^^^^^^^^^^
+AttributeError: 'TfidfRetriever' object has no attribute 'query'
+2025-07-08 17:38:01,848 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:38:03,008 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:39:33,572 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:39:33,859 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:39:34,325 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:39:34,325 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:39:34,326 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:39:34,327 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:39:34,374 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:39:34,374 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:39:34,374 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:39:34,374 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:39:34,374 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:39:34,426 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:39:34,438 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:39:34,438 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:39:34,438 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:39:34,439 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:39:34,440 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:39:34,470 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 10 documents
+2025-07-08 17:39:34,495 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:39:34,495 - src.retrieval.tfidf_retriever - DEBUG - Found 10 documents in collection
+2025-07-08 17:39:34,495 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:39:34,495 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:39:34,495 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:39:34,497 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:39:34,497 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 10 documents
+2025-07-08 17:39:34,497 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:39:34,598 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 89 features
+2025-07-08 17:39:34,599 - __main__ - INFO - Successfully loaded 10 documents
+2025-07-08 17:39:34,599 - __main__ - INFO - Sample documents:
+2025-07-08 17:39:34,599 - __main__ - INFO - Document 1:
+2025-07-08 17:39:34,599 - __main__ - INFO -   ID: doc_0_1751971937
+2025-07-08 17:39:34,599 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:39:34,599 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:39:34,599 - __main__ - INFO - Document 2:
+2025-07-08 17:39:34,600 - __main__ - INFO -   ID: doc_1_1751971937
+2025-07-08 17:39:34,600 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:39:34,600 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:39:34,600 - __main__ - INFO - Document 3:
+2025-07-08 17:39:34,600 - __main__ - INFO -   ID: doc_2_1751971937
+2025-07-08 17:39:34,600 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:39:34,601 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:39:34,601 - __main__ - INFO - 
+Testing search with query: 'MOSDAC'
+2025-07-08 17:39:34,601 - __main__ - ERROR - Error testing TF-IDF retriever:
+Traceback (most recent call last):
+  File "D:\ISRO_hack\ISRO\scripts\test_tfidf.py", line 78, in test_tfidf_retriever
+    results = tfidf.query(test_query, top_k=3)
+              ^^^^^^^^^^^
+AttributeError: 'TfidfRetriever' object has no attribute 'query'
+2025-07-08 17:39:34,889 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:39:36,200 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:41:46,436 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:41:46,562 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:41:46,711 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:41:46,712 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:41:46,712 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:41:46,712 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:41:46,716 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:41:46,716 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:41:46,716 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:41:46,716 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:41:46,716 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:41:46,744 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:41:46,744 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:41:46,745 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:41:46,745 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:41:46,746 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:41:46,747 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:41:46,759 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 10 documents
+2025-07-08 17:41:46,780 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:41:46,780 - src.retrieval.tfidf_retriever - DEBUG - Found 10 documents in collection
+2025-07-08 17:41:46,781 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:41:46,781 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:41:46,781 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:41:46,781 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 17:41:46,781 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 10 documents
+2025-07-08 17:41:46,781 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:41:46,784 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 89 features
+2025-07-08 17:41:46,785 - __main__ - INFO - Successfully loaded 10 documents
+2025-07-08 17:41:46,785 - __main__ - INFO - Sample documents:
+2025-07-08 17:41:46,785 - __main__ - INFO - Document 1:
+2025-07-08 17:41:46,785 - __main__ - INFO -   ID: doc_0_1751971937
+2025-07-08 17:41:46,785 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies....
+2025-07-08 17:41:46,785 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:41:46,786 - __main__ - INFO - Document 2:
+2025-07-08 17:41:46,786 - __main__ - INFO -   ID: doc_1_1751971937
+2025-07-08 17:41:46,786 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring....
+2025-07-08 17:41:46,786 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:41:46,786 - __main__ - INFO - Document 3:
+2025-07-08 17:41:46,786 - __main__ - INFO -   ID: doc_2_1751971937
+2025-07-08 17:41:46,786 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:41:46,786 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:41:46,787 - __main__ - INFO - 
+Testing search with query: 'MOSDAC'
+2025-07-08 17:41:46,823 - __main__ - WARNING - No results returned from search!
+2025-07-08 17:41:47,227 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:41:48,065 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:49:50,536 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:49:50,669 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:49:50,824 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:49:50,825 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:49:50,825 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:49:50,825 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:49:50,829 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:49:50,829 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:49:50,829 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:49:50,829 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:49:50,829 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:49:50,855 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:49:50,856 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:49:50,856 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:49:50,857 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:49:50,858 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:49:50,858 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:49:50,869 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 5 documents
+2025-07-08 17:49:50,890 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:49:50,890 - src.retrieval.tfidf_retriever - DEBUG - Found 5 documents in collection
+2025-07-08 17:49:50,891 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:49:50,891 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:49:50,891 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:49:50,891 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:49:50,891 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 5 documents
+2025-07-08 17:49:50,891 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:49:50,893 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 130 features
+2025-07-08 17:49:50,893 - __main__ - INFO - Successfully loaded 5 documents
+2025-07-08 17:49:50,893 - __main__ - INFO - Sample documents:
+2025-07-08 17:49:50,893 - __main__ - INFO - Document 1:
+2025-07-08 17:49:50,893 - __main__ - INFO -   ID: doc_0_1751977115
+2025-07-08 17:49:50,893 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:49:50,894 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:49:50,894 - __main__ - INFO - Document 2:
+2025-07-08 17:49:50,894 - __main__ - INFO -   ID: doc_1_1751977115
+2025-07-08 17:49:50,894 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:49:50,894 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:49:50,894 - __main__ - INFO - Document 3:
+2025-07-08 17:49:50,894 - __main__ - INFO -   ID: doc_2_1751977115
+2025-07-08 17:49:50,894 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:49:50,894 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:49:50,894 - __main__ - INFO - 
+Testing search with query: 'MOSDAC'
+2025-07-08 17:49:50,928 - __main__ - WARNING - No results returned from search!
+2025-07-08 17:49:51,358 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:49:52,676 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:51:42,207 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:51:42,380 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:51:42,585 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:51:42,585 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:51:42,585 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:51:42,585 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:51:42,590 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:51:42,590 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:51:42,590 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:51:42,591 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:51:42,591 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:51:42,636 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:51:42,638 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:51:42,638 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:51:42,638 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:51:42,640 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:51:42,641 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:51:42,660 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 5 documents
+2025-07-08 17:51:42,708 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:51:42,708 - src.retrieval.tfidf_retriever - DEBUG - Found 5 documents in collection
+2025-07-08 17:51:42,709 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:51:42,709 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:51:42,709 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:51:42,709 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:51:42,709 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 5 documents
+2025-07-08 17:51:42,709 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:51:42,713 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 130 features
+2025-07-08 17:51:42,713 - __main__ - INFO - Successfully loaded 5 documents
+2025-07-08 17:51:42,713 - __main__ - INFO - Sample documents:
+2025-07-08 17:51:42,713 - __main__ - INFO - Document 1:
+2025-07-08 17:51:42,713 - __main__ - INFO -   ID: doc_0_1751977115
+2025-07-08 17:51:42,713 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:51:42,713 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:51:42,713 - __main__ - INFO - Document 2:
+2025-07-08 17:51:42,714 - __main__ - INFO -   ID: doc_1_1751977115
+2025-07-08 17:51:42,714 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:51:42,714 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:51:42,714 - __main__ - INFO - Document 3:
+2025-07-08 17:51:42,715 - __main__ - INFO -   ID: doc_2_1751977115
+2025-07-08 17:51:42,715 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:51:42,715 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:51:42,715 - __main__ - INFO - 
+Testing search with query: 'Ocean'
+2025-07-08 17:51:42,716 - __main__ - WARNING - No results returned from search!
+2025-07-08 17:51:43,094 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:51:44,262 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:53:05,314 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:53:05,470 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:53:05,682 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:53:05,683 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:53:05,683 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:53:05,683 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:53:05,688 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:53:05,689 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:53:05,689 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:53:05,689 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:53:05,690 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:53:05,719 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:53:05,720 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:53:05,720 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:53:05,721 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:53:05,721 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:53:05,722 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:53:05,737 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 5 documents
+2025-07-08 17:53:05,762 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:53:05,763 - src.retrieval.tfidf_retriever - DEBUG - Found 5 documents in collection
+2025-07-08 17:53:05,763 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:53:05,763 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:53:05,763 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:53:05,764 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:53:05,764 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 5 documents
+2025-07-08 17:53:05,764 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:53:05,768 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 130 features
+2025-07-08 17:53:05,768 - __main__ - INFO - Successfully loaded 5 documents
+2025-07-08 17:53:05,768 - __main__ - INFO - Sample documents:
+2025-07-08 17:53:05,769 - __main__ - INFO - Document 1:
+2025-07-08 17:53:05,769 - __main__ - INFO -   ID: doc_0_1751977115
+2025-07-08 17:53:05,769 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:53:05,769 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:53:05,769 - __main__ - INFO - Document 2:
+2025-07-08 17:53:05,770 - __main__ - INFO -   ID: doc_1_1751977115
+2025-07-08 17:53:05,770 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:53:05,770 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:53:05,770 - __main__ - INFO - Document 3:
+2025-07-08 17:53:05,770 - __main__ - INFO -   ID: doc_2_1751977115
+2025-07-08 17:53:05,770 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:53:05,770 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:53:05,770 - __main__ - INFO - 
+Testing search with query: 'what is SCATSAT-1'
+2025-07-08 17:53:05,771 - __main__ - INFO - Found 1 results:
+2025-07-08 17:53:05,772 - __main__ - ERROR - Error testing TF-IDF retriever:
+Traceback (most recent call last):
+  File "D:\ISRO_hack\ISRO\scripts\test_tfidf.py", line 84, in test_tfidf_retriever
+    for i, (doc, score) in enumerate(results, 1):
+           ^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-07-08 17:53:06,209 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:53:07,057 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 17:54:29,249 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 17:54:29,401 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 17:54:29,657 - chromadb.config - DEBUG - Starting component System
+2025-07-08 17:54:29,658 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 17:54:29,658 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 17:54:29,658 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 17:54:29,664 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 17:54:29,664 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 17:54:29,665 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 17:54:29,665 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 17:54:29,665 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 17:54:29,705 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 17:54:29,707 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 17:54:29,707 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 17:54:29,707 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 17:54:29,708 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 17:54:29,710 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 17:54:29,728 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 5 documents
+2025-07-08 17:54:29,758 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:54:29,758 - src.retrieval.tfidf_retriever - DEBUG - Found 5 documents in collection
+2025-07-08 17:54:29,759 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:54:29,759 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:54:29,759 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:54:29,760 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 5 documents from ChromaDB
+2025-07-08 17:54:29,760 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 5 documents
+2025-07-08 17:54:29,760 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:54:29,764 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 130 features
+2025-07-08 17:54:29,764 - __main__ - INFO - Successfully loaded 5 documents
+2025-07-08 17:54:29,765 - __main__ - INFO - Sample documents:
+2025-07-08 17:54:29,765 - __main__ - INFO - Document 1:
+2025-07-08 17:54:29,765 - __main__ - INFO -   ID: doc_0_1751977115
+2025-07-08 17:54:29,765 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 17:54:29,765 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:54:29,765 - __main__ - INFO - Document 2:
+2025-07-08 17:54:29,765 - __main__ - INFO -   ID: doc_1_1751977115
+2025-07-08 17:54:29,765 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 17:54:29,766 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:54:29,766 - __main__ - INFO - Document 3:
+2025-07-08 17:54:29,766 - __main__ - INFO -   ID: doc_2_1751977115
+2025-07-08 17:54:29,766 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:54:29,766 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 17:54:29,766 - __main__ - INFO - 
+Testing search with query: 'what is SCATSAT-1'
+2025-07-08 17:54:29,769 - __main__ - INFO - Found 1 results:
+2025-07-08 17:54:29,769 - __main__ - INFO -   1. [Score: 0.5285] ID: doc_2_1751977115
+2025-07-08 17:54:29,769 - __main__ - INFO -      Text: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 17:54:29,769 - __main__ - INFO -      Metadata: {'metadata': {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}, 'id': 'doc_2_1751977115'}
+2025-07-08 17:54:30,184 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 17:54:31,554 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-07-08 18:11:47,196 - __main__ - INFO - Starting TF-IDF retriever test...
+2025-07-08 18:11:47,332 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-07-08 18:11:47,724 - chromadb.config - DEBUG - Starting component System
+2025-07-08 18:11:47,724 - chromadb.config - DEBUG - Starting component Posthog
+2025-07-08 18:11:47,724 - chromadb.config - DEBUG - Starting component OpenTelemetryClient
+2025-07-08 18:11:47,724 - chromadb.config - DEBUG - Starting component SqliteDB
+2025-07-08 18:11:47,728 - chromadb.config - DEBUG - Starting component SimpleQuotaEnforcer
+2025-07-08 18:11:47,728 - chromadb.config - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-07-08 18:11:47,728 - chromadb.config - DEBUG - Starting component LocalSegmentManager
+2025-07-08 18:11:47,728 - chromadb.config - DEBUG - Starting component LocalExecutor
+2025-07-08 18:11:47,729 - chromadb.config - DEBUG - Starting component SegmentAPI
+2025-07-08 18:11:47,807 - __main__ - INFO - Using ChromaDB collection: mosdac_documents
+2025-07-08 18:11:47,841 - __main__ - INFO - Available collections: ['mosdac_documents']
+2025-07-08 18:11:47,849 - __main__ - INFO - Initializing TF-IDF retriever...
+2025-07-08 18:11:47,851 - src.retrieval.tfidf_retriever - INFO - Loading documents from ChromaDB collection: mosdac_documents
+2025-07-08 18:11:47,852 - src.retrieval.tfidf_retriever - DEBUG - Available collections: ['mosdac_documents']
+2025-07-08 18:11:47,853 - src.retrieval.tfidf_retriever - INFO - Successfully loaded collection: mosdac_documents
+2025-07-08 18:11:47,868 - src.retrieval.tfidf_retriever - INFO - Collection mosdac_documents has 10 documents
+2025-07-08 18:11:47,906 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 18:11:47,907 - src.retrieval.tfidf_retriever - DEBUG - Found 10 documents in collection
+2025-07-08 18:11:47,907 - src.retrieval.tfidf_retriever - DEBUG - Document 1 sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 18:11:47,908 - src.retrieval.tfidf_retriever - DEBUG - Document 2 sample: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 18:11:47,908 - src.retrieval.tfidf_retriever - DEBUG - Document 3 sample: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 18:11:47,908 - src.retrieval.tfidf_retriever - INFO - Successfully loaded 10 documents from ChromaDB
+2025-07-08 18:11:47,908 - src.retrieval.tfidf_retriever - INFO - Fitting TF-IDF vectorizer on 10 documents
+2025-07-08 18:11:47,908 - src.retrieval.tfidf_retriever - DEBUG - First document sample: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 18:11:47,911 - src.retrieval.tfidf_retriever - INFO - TF-IDF vectorizer fitted with 135 features
+2025-07-08 18:11:47,911 - __main__ - INFO - Successfully loaded 10 documents
+2025-07-08 18:11:47,911 - __main__ - INFO - Sample documents:
+2025-07-08 18:11:47,911 - __main__ - INFO - Document 1:
+2025-07-08 18:11:47,911 - __main__ - INFO -   ID: doc_0_1751977115
+2025-07-08 18:11:47,911 - __main__ - INFO -   Preview: The Oceansat-2 satellite provides sea surface temperature (SST) data for oceanographic studies. Ocea...
+2025-07-08 18:11:47,911 - __main__ - INFO -   Metadata: {'last_updated': '2023-06-15', 'parameter': 'Sea Surface Temperature (SST)', 'satellite': 'Oceansat-2', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 18:11:47,911 - __main__ - INFO - Document 2:
+2025-07-08 18:11:47,911 - __main__ - INFO -   ID: doc_1_1751977115
+2025-07-08 18:11:47,912 - __main__ - INFO -   Preview: INSAT-3D is a meteorological satellite that provides data for weather forecasting and monitoring. IN...
+2025-07-08 18:11:47,912 - __main__ - INFO -   Metadata: {'last_updated': '2023-05-20', 'parameter': 'Weather Data', 'satellite': 'INSAT-3D', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 18:11:47,912 - __main__ - INFO - Document 3:
+2025-07-08 18:11:47,912 - __main__ - INFO -   ID: doc_2_1751977115
+2025-07-08 18:11:47,912 - __main__ - INFO -   Preview: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 18:11:47,912 - __main__ - INFO -   Metadata: {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}
+2025-07-08 18:11:47,912 - __main__ - INFO - 
+Testing search with query: 'what is SCATSAT-1'
+2025-07-08 18:11:47,915 - __main__ - INFO - Found 2 results:
+2025-07-08 18:11:47,915 - __main__ - INFO -   1. [Score: 0.5424] ID: doc_2_1751978417
+2025-07-08 18:11:47,915 - __main__ - INFO -      Text: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 18:11:47,915 - __main__ - INFO -      Metadata: {'metadata': {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}, 'id': 'doc_2_1751978417'}
+2025-07-08 18:11:47,915 - __main__ - INFO -   2. [Score: 0.5319] ID: doc_2_1751977115
+2025-07-08 18:11:47,915 - __main__ - INFO -      Text: SCATSAT-1 is a satellite designed to provide wind vector data for weather forecasting and cyclone de...
+2025-07-08 18:11:47,915 - __main__ - INFO -      Metadata: {'metadata': {'last_updated': '2023-04-10', 'parameter': 'Wind Vectors', 'satellite': 'SCATSAT-1', 'source': 'MOSDAC', 'year': 2023}, 'id': 'doc_2_1751977115'}
+2025-07-08 18:11:48,242 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-07-08 18:11:49,582 - urllib3.connectionpool - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15

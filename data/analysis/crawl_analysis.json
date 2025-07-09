@@ -1,0 +1,1187 @@
+{
+  "root_keys": [
+    "site_structure",
+    "pages"
+  ],
+  "pages_analysis": {
+    "total_pages": 50,
+    "non_null_pages": 50,
+    "content_types": {
+      "no_content": 50
+    },
+    "first_page_url": "https://www.mosdac.gov.in",
+    "first_page_structure": {
+      "url": "str: https://www.mosdac.gov.in",
+      "title": "str: Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "str: Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space A",
+      "keywords": {
+        "type": "list",
+        "length": 6,
+        "sample": "Meteorological"
+      },
+      "headings": {
+        "type": "dict",
+        "length": 2,
+        "sample": null
+      },
+      "content_text": "str: Skip to main Content -A A +A AA \u0939\u093f\u0928\u094d\u0926\u0940English Secondary menuSignUp Login Logout Meteorological & Oce",
+      "word_count": "int: 5347",
+      "reading_difficulty": "float: 32.6785102108318",
+      "images": {
+        "type": "list",
+        "length": 37,
+        "sample": {
+          "src": "https://www.mosdac.gov.in/sites/default/files/mosdac_small.png",
+          "alt": "Home",
+          "title": ""
+        }
+      },
+      "links": {
+        "type": "list",
+        "length": 133,
+        "sample": {
+          "url": "https://www.mosdac.gov.in#main-content",
+          "text": "Skip to main Content",
+          "title": "Skip to main Content",
+          "internal": true
+        }
+      },
+      "forms": {
+        "type": "list",
+        "length": 2,
+        "sample": {
+          "action": "/",
+          "method": "post",
+          "inputs": 5
+        }
+      },
+      "meta_tags": {
+        "type": "dict",
+        "length": 10,
+        "sample": null
+      },
+      "structured_data": {
+        "type": "list",
+        "length": 0,
+        "sample": null
+      },
+      "content_hash": "str: b8d000e4914b521cb9fae3d2cb843285",
+      "page_type": "str: home",
+      "content_categories": {
+        "type": "list",
+        "length": 2,
+        "sample": "commerce"
+      },
+      "key_phrases": {
+        "type": "list",
+        "length": 10,
+        "sample": "forecast"
+      },
+      "file_type": "str: html",
+      "file_size": null,
+      "last_modified": null,
+      "document_metadata": {
+        "type": "dict",
+        "length": 0,
+        "sample": null
+      },
+      "tables": {
+        "type": "list",
+        "length": 0,
+        "sample": null
+      },
+      "raw_content": null
+    },
+    "first_page_sample": {
+      "url": "https://www.mosdac.gov.in",
+      "title": "Meteorological & Oceanographic Satellite Data Archival Centre",
+      "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+      "keywords": [
+        "Meteorological",
+        "Oceanographic",
+        "Satellite",
+        "Data",
+        "Archival",
+        "Data Centre"
+      ],
+      "headings": {
+        "h1": [
+          "Meteorological & Oceanographic Satellite Data Archival Centre"
+        ],
+        "h2": [
+          "Secondary menu",
+          "",
+          "Services",
+          "City Weather",
+          "Cold Waves",
+          "Cyclone",
+          "Heat Waves",
+          "Heavy Rain",
+          "Lightning",
+          "Monsoon",
+          "Sea State",
+          "Solar & Wind",
+          "Cloud Burst",
+          "Heavy Rain",
+          "AWS Time Series",
+          "Heavy Rain",
+          "MOSDAC LIVE",
+          "Indian State Portal",
+          "South East Asian Countries",
+          "Urja",
+          "VARSHA",
+          "VAYU",
+          "Soil Moisture",
+          "SCORPIO",
+          "OIL SPILL",
+          "Ocean Subsurface Fields",
+          "Safe Beach",
+          "Ocean-Eye",
+          "Eddy Currents",
+          "Announcements",
+          "Search",
+          "Follow Us"
+        ]
+      },
+      "content_text": "Skip to main Content -A A +A AA \u0939\u093f\u0928\u094d\u0926\u0940English Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri Skip to main Content -A A +A AA \u0939\u093f\u0928\u094d\u0926\u0940English Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri Skip to main Content -A A +A AA \u0939\u093f\u0928\u094d\u0926\u0940English Skip to main Content -A A +A AA \u0939\u093f\u0928\u094d\u0926\u0940English Skip to main Content -A A +A AA \u0939\u093f\u0928\u094d\u0926\u0940English Skip to main Content Skip to main Content Skip to main Content -A A +A -A A +A AA AA AA \u0939\u093f\u0928\u094d\u0926\u0940English \u0939\u093f\u0928\u094d\u0926\u0940English \u0939\u093f\u0928\u094d\u0926\u0940English \u0939\u093f\u0928\u094d\u0926\u0940English Secondary menuSignUp Login Logout Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO Meteorological & Oceanographic Satellite Data Archival Centre Space Applications Centre, ISRO Space Applications Centre, ISRO HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp HomeMissionsINSAT-3DRINSAT-3DKALPANA-1INSAT-3AMeghaTropiquesSARAL-AltiKaOCEANSAT-2OCEANSAT-3INSAT-3DSSCATSAT-1CatalogSatelliteInsitu (AWS)RADARGalleriesSatellite ProductsWeather ForecastOcean ForecastRADAR (DWR)Global Ocean CurrentData AccessOrder DataOpen DataAtmosphereBayesian based MT-SAPHIR rainfallGPS derived Integrated water vapourGSMap ISRO RainMETEOSAT8 Cloud PropertiesLand3D Volumetric TERLS DWRproductInland Water HeightRiver DischargeSoil MoistureOceanGlobal Ocean Surface CurrentHigh Resolution Sea Surface SalinityIndian Mainland Coastal ProductOcean SubsurfaceOceanic Eddies DetectionSea Ice Occurrence ProbabilityWave based Renewable EnergyCal-ValForecastRSS FeedsReportsCalibrationInsituRelativeValidationData QualityWeatherAtlasesToolsSitemapHelp Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Satellite Images RADAR Weather OceanState LIVE Your browser does not support iframes, but you can use the following link. LinkFullscreen Your browser does not support iframes, but you can use the following link. LinkFullscreen Your browser does not support iframes, but you can use the following link. LinkFullscreen Your browser does not support iframes, but you can use the following link. LinkFullscreen Your browser does not support iframes, but you can use the following link. Link Your browser does not support iframes, but you can use the following link. Link Your browser does not support iframes, but you can use the following link. Link Your browser does not support iframes, but you can use the following link. Link Fullscreen Fullscreen Fullscreen Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Services Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents Forecast Nowcast Current Events Alerts Met Applications Ocean Applications City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes City Weather 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Monsoon Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes City Weather 3-hourly Weather forecast. City Weather 3-hourly Weather forecast. 3-hourly Weather forecast. Cold Waves Cold wave prediction over India (WRF Model) Cold Waves Cold wave prediction over India (WRF Model) Cold wave prediction over India (WRF Model) Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Cyclone Sat. Based Cyclone Obser. and Realtime Pred. over IO. Sat. Based Cyclone Obser. and Realtime Pred. over IO. Heat Waves Heat Wave Prediction over India (WRF Model) Heat Waves Heat Wave Prediction over India (WRF Model) Heat Wave Prediction over India (WRF Model) Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Heavy Rain Heavy Rain (>5mm/hr) forecast using NWP model. Heavy Rain (>5mm/hr) forecast using NWP model. Lightning Lightning Forecast Lightning Lightning Forecast Lightning Forecast Monsoon Monsoon Prediction 2024 Monsoon Monsoon Prediction 2024 Monsoon Prediction 2024 Sea State Sea State forecast in terms of Wave Height, Wave period etc. Sea State Sea State forecast in terms of Wave Height, Wave period etc. Sea State forecast in terms of Wave Height, Wave period etc. Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes Solar & Wind 3 Days Solar and Wind Forecast for every 15 minutes 3 Days Solar and Wind Forecast for every 15 minutes Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Cloud Burst Cloud Burst Nowcast for 6 hours over Western Himalayan region. Cloud Burst Nowcast for 6 hours over Western Himalayan region. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. Heavy Rain Satellite based nowcast for Heavy rain events for 6 hours. Satellite based nowcast for Heavy rain events for 6 hours. AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) AWS Time Series AWS Time Series AWS Time Series AWS Time Series AWS Time Series Heavy Rain Heavy Rain Events Heavy Rain Heavy Rain Events Heavy Rain Events MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) MOSDAC LIVE Let's Interactively Visualise the Earth (LIVE) Let's Interactively Visualise the Earth (LIVE) Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Indian State Portal Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries Indian State Portal Alerts for Indian States Indian State Portal Alerts for Indian States Alerts for Indian States South East Asian Countries Alerts for South East Asian Countries South East Asian Countries Alerts for South East Asian Countries Alerts for South East Asian Countries Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. Urja Solar Energy VARSHA Rainfall VAYU Air Quality Soil Moisture Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. Urja Solar Energy Urja Solar Energy Solar Energy VARSHA Rainfall VARSHA Rainfall Rainfall VAYU Air Quality VAYU Air Quality Air Quality Soil Moisture Soil Wetness Index Soil Moisture Soil Wetness Index Soil Wetness Index SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. SCORPIO Sat. Based Cyclone Obser. and Realtime Pred. over IO. Sat. Based Cyclone Obser. and Realtime Pred. over IO. OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Eddy Currents Eddy Currents OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS OIL SPILL ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS ALTIMETER LCS-CORES AND STRETCHING DIRECTIONS Ocean Subsurface Fields Ocean Subsurface Fields Ocean Subsurface Fields Ocean Subsurface Fields Ocean Subsurface Fields Safe Beach RIP Current Forecast for All-India beaches. Safe Beach RIP Current Forecast for All-India beaches. RIP Current Forecast for All-India beaches. Ocean-Eye Ocean State Forecast Ocean-Eye Ocean State Forecast Ocean State Forecast Eddy Currents Eddy Currents Eddy Currents Eddy Currents Eddy Currents Announcements Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 Monsoon Onset Prediction over Kerala (2024) | PDF, Tool: PDFViewer, Size: 763.84 KB | 20-May-24 Onset over Kerala - Monsoon 2023 | PDF, Tool: PDFViewer, Size: 463.15 KB | 15-May-23 INSAT Product Version Information | PDF, Tool: PDFViewer, Size: 1.61 MB | 01-Sep-22 SFTP Services for Data Download | PDF, Tool: PDFViewer, Size: 347.33 KB | 08-Nov-21 archive Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri Search Search Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Search Search Search Search Search Search Search Search Follow Us Follow Us Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Website owned and maintained by MOSDAC, Space Applications Centre, Indian Space Research Organisation, Govt. of INDIA. Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri Feedback About Us Contact Us Copyright Policy Data Access Policy Hyperlink Policy Privacy Policy Website Policies Terms & Conditions FAQs \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri \"Ver 3.0; Last reviewed and updated on 02 Jul, 2025& Served By: Web-Srv-Pri",
+      "word_count": 5347,
+      "reading_difficulty": 32.6785102108318,
+      "images": [
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/mosdac_small.png",
+          "alt": "Home",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/weather.jpg?itok=me1X6l-u",
+          "alt": "Weather Forecast",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/coldwave.jpg?itok=lmF4zeLb",
+          "alt": "Cold Waves",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/cyclone1.jpg?itok=vPe-uR_Q",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/waves.jpg?itok=FH2Y2Kx5",
+          "alt": "Heat Waves",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/rainfall_0.jpg?itok=lnMS05Ux",
+          "alt": "HeavyRain Forecast",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/light.jpg?itok=HG-EInNU",
+          "alt": "Lightning",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/download.jpg?itok=DUCkXdHK",
+          "alt": "Monsoon Prediction",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/sea-state.jpg?itok=eojilMxA",
+          "alt": "Sea State Forecast",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/energy.jpg?itok=cH0XNUWK",
+          "alt": "Solar & Wind",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/cloud-burst.jpeg?itok=GS9Yo886",
+          "alt": "Cloud burst Nowcast Alerts",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/rainyseason.jpeg?itok=n7H5GxSp",
+          "alt": "Heavy Rain Nowcast",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/aws-time-series.PNG?itok=hox5zRJF",
+          "alt": "AWS Time Series",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/heavyrain_event.jpg?itok=lrcgAqkg",
+          "alt": "Heavy Rain Events",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/live.png?itok=L3bGLC2g",
+          "alt": "MOSDAC-LIVE",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/indian-states_0.png?itok=I3lp0ef2",
+          "alt": "Indian State",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/saarc.png?itok=hVJmY4KF",
+          "alt": "South East Asian",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/urjaService.png?itok=1yEEoyOY",
+          "alt": "Urja Image",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/rainfall.jpg?itok=U6xL3U-d",
+          "alt": "rainfall",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/airq.PNG?itok=SAdlITzR",
+          "alt": "Air Quality",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/swi-smap.jpg?itok=5E70NrgO",
+          "alt": "Soil Wetness Index",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/cyclone.jpg?itok=MSFX1kVy",
+          "alt": "Cyclone",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/oil_image.png?itok=yK2ZHpfX",
+          "alt": "Oil Spill",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/ocean_subsurface_0.jpg?itok=9G9XRCyQ",
+          "alt": "Ocean Subsurface Fields",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/rip_current_forecast.jpg?itok=hWTHw_z2",
+          "alt": "Safe Beach",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/ocean-eye.jpg?itok=J1Q9gsRD",
+          "alt": "Ocean eye (Ocean state forecast)",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/app-thumbs/public/field/image/eddy_0.png?itok=Ig0XNSnU",
+          "alt": "Eddy Currents",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/facebook.png",
+          "alt": "Facebook icon",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/youtube.png",
+          "alt": "Youtube (Channel) icon",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/all/modules/social_media_links/libraries/elegantthemes/PNG/rss.png",
+          "alt": "RSS icon",
+          "title": ""
+        },
+        {
+          "src": "/docs/cqw_logo.gif",
+          "alt": "CQW LOGO",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/thumbnail/public/logo-transparent.png?itok=IUS20l-w",
+          "alt": "ISRO",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/thumbnail/public/saclogo.png?itok=_Jv4AuIn",
+          "alt": "Space Applications Center",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/thumbnail/public/india-gov_0.png?itok=yssAPH3m",
+          "alt": "NationalPortal",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/thumbnail/public/mygov_0.png?itok=Po-dzdT3",
+          "alt": "MyGov",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/thumbnail/public/digital-india_0.png?itok=ntlP7atE",
+          "alt": "DigitalIndia",
+          "title": ""
+        },
+        {
+          "src": "https://www.mosdac.gov.in/sites/default/files/styles/thumbnail/public/data-gov.png?itok=qYA78FgB",
+          "alt": "DataPortal",
+          "title": ""
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.mosdac.gov.in#main-content",
+          "text": "Skip to main Content",
+          "title": "Skip to main Content",
+          "internal": true
+        },
+        {
+          "url": "javascript:;",
+          "text": "-A",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "javascript:;",
+          "text": "A",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "javascript:;",
+          "text": "+A",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "javascript:drupalHighContrast.enableStyles()",
+          "text": "A",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "javascript:drupalHighContrast.disableStyles()",
+          "text": "A",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/registration",
+          "text": "SignUp",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/uops",
+          "text": "Login",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/logout",
+          "text": "Logout",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/",
+          "text": "",
+          "title": "Home",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/",
+          "text": "Meteorological & Oceanographic Satellite Data Archival Centre",
+          "title": "Home",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/",
+          "text": "Home",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Missions",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/insat-3dr",
+          "text": "INSAT-3DR",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/insat-3d",
+          "text": "INSAT-3D",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/kalpana-1",
+          "text": "KALPANA-1",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/insat-3a",
+          "text": "INSAT-3A",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/megha-tropiques",
+          "text": "MeghaTropiques",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/saral-altika",
+          "text": "SARAL-AltiKa",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/oceansat-2",
+          "text": "OCEANSAT-2",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/oceansat-3",
+          "text": "OCEANSAT-3",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/insat-3ds",
+          "text": "INSAT-3DS",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/scatsat-1",
+          "text": "SCATSAT-1",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Catalog",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/catalog-satellite",
+          "text": "Satellite",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/catalog-insitu",
+          "text": "Insitu (AWS)",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/catalog-radar",
+          "text": "RADAR",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Galleries",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/gallery",
+          "text": "Satellite Products",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/gallery/weather",
+          "text": "Weather Forecast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/gallery/ocean",
+          "text": "Ocean Forecast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/gallery/dwr",
+          "text": "RADAR (DWR)",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/gallery/current",
+          "text": "Global Ocean Current",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Data Access",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/uops",
+          "text": "Order Data",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Open Data",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Atmosphere",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/bayesian-based-mt-saphir-rainfall",
+          "text": "Bayesian based MT-SAPHIR rainfall",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/gps-derived-integrated-water-vapour",
+          "text": "GPS derived Integrated water vapour",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/gsmap-isro-rain",
+          "text": "GSMap ISRO Rain",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/meteosat8-cloud-properties",
+          "text": "METEOSAT8 Cloud Properties",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Land",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/3d-volumetric-terls-dwrproduct",
+          "text": "3D Volumetric TERLS DWRproduct",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/inland-water-height",
+          "text": "Inland Water Height",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/river-discharge",
+          "text": "River Discharge",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/soil-moisture-0",
+          "text": "Soil Moisture",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Ocean",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/global-ocean-surface-current",
+          "text": "Global Ocean Surface Current",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/high-resolution-sea-surface-salinity",
+          "text": "High Resolution Sea Surface Salinity",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/indian-mainland-coastal-product",
+          "text": "Indian Mainland Coastal Product",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/ocean-subsurface",
+          "text": "Ocean Subsurface",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/oceanic-eddies-detection",
+          "text": "Oceanic Eddies Detection",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/sea-ice-occurrence-probability",
+          "text": "Sea Ice Occurrence Probability",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/wave-based-renewable-energy",
+          "text": "Wave based Renewable Energy",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/calval-data",
+          "text": "Cal-Val",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/forecast-menu",
+          "text": "Forecast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/rss-feed",
+          "text": "RSS Feeds",
+          "title": "ISROCast",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Reports",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in",
+          "text": "Calibration",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/insitu",
+          "text": "Insitu",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/calibration-reports",
+          "text": "Relative",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/validation-reports",
+          "text": "Validation",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/data-quality",
+          "text": "Data Quality",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/weather-reports",
+          "text": "Weather",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/atlases",
+          "text": "Atlases",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/tools",
+          "text": "Tools",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/sitemap",
+          "text": "Sitemap",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/help",
+          "text": "Help",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-latest_products=0#qt-latest_products",
+          "text": "Satellite Images",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-latest_products=1#qt-latest_products",
+          "text": "RADAR",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-latest_products=2#qt-latest_products",
+          "text": "Weather",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-latest_products=3#qt-latest_products",
+          "text": "OceanState",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-latest_products=4#qt-latest_products",
+          "text": "LIVE",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/imageshow",
+          "text": "",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/gallery/index.html%3F%26prod%3D3SIMG_%2A_L1B_STD_IR1_V%2A.jpg",
+          "text": "Link",
+          "title": "Image Gallery",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/gallery/index.html?&prod=3SIMG_%2A_L1B_STD_IR1_V%2A.jpg",
+          "text": "Fullscreen",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-services_quicktab=0#qt-services_quicktab",
+          "text": "Forecast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-services_quicktab=1#qt-services_quicktab",
+          "text": "Nowcast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-services_quicktab=2#qt-services_quicktab",
+          "text": "Current Events",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-services_quicktab=3#qt-services_quicktab",
+          "text": "Alerts",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-services_quicktab=4#qt-services_quicktab",
+          "text": "Met Applications",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/node?qt-services_quicktab=5#qt-services_quicktab",
+          "text": "Ocean Applications",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/weather",
+          "text": "City Weather\n3-hourly Weather forecast.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/coldwave",
+          "text": "Cold Waves\nCold wave prediction over India (WRF Model)",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/cyclone",
+          "text": "Cyclone\nSat. Based Cyclone Obser. and Realtime Pred. over IO.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/heat-cold-wave",
+          "text": "Heat Waves\nHeat Wave Prediction over India (WRF Model)",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/forecast-heavyrain",
+          "text": "Heavy Rain\nHeavy Rain (>5mm/hr) forecast using NWP model.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/lightning",
+          "text": "Lightning\nLightning Forecast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/monsoon",
+          "text": "Monsoon\nMonsoon Prediction 2024",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/sea-state-forecast",
+          "text": "Sea State\nSea State forecast in terms of Wave Height, Wave period etc.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/energy",
+          "text": "Solar & Wind\n3 Days Solar and Wind Forecast for every 15 minutes",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/nowcast-cloudburst",
+          "text": "Cloud Burst\nCloud Burst Nowcast for 6 hours\u00a0over Western Himalayan region.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/nowcast-heavyrain",
+          "text": "Heavy Rain\nSatellite based nowcast for Heavy rain events for 6 hours.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/aws",
+          "text": "AWS Time Series\nAWS Time Series",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/event-heavyrain",
+          "text": "Heavy Rain\nHeavy Rain Events",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/live",
+          "text": "MOSDAC LIVE\nLet's Interactively Visualise the Earth (LIVE)",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/state",
+          "text": "Indian State Portal\nAlerts for Indian States",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/afs-seac",
+          "text": "South East Asian Countries\nAlerts for\u00a0South East Asian Countries",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/urja",
+          "text": "Urja\nSolar Energy",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/varsha",
+          "text": "VARSHA\nRainfall",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/vayu",
+          "text": "VAYU\nAir Quality",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/soil-wetness",
+          "text": "Soil Moisture\nSoil Wetness Index",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/cyclone",
+          "text": "SCORPIO\nSat. Based Cyclone Obser. and Realtime Pred. over IO.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/oilspill",
+          "text": "OIL SPILL\nALTIMETER LCS-CORES AND STRETCHING DIRECTIONS",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/ocean",
+          "text": "Ocean Subsurface Fields\nOcean Subsurface Fields",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/rip",
+          "text": "Safe Beach\nRIP Current Forecast for All-India beaches.",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/ocean-eye",
+          "text": "Ocean-Eye\nOcean State Forecast",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/internal/eddy",
+          "text": "Eddy Currents\nEddy Currents",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/sites/default/files/docs/Onset%20Prediction%202024.pdf",
+          "text": "Monsoon Onset Prediction over Kerala (2024)",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/sites/default/files/docs/Onset%20Prediction%202023.pdf",
+          "text": "Onset over Kerala - Monsoon 2023",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/sites/default/files/docs/INSAT_Product_Version_information_V01.pdf",
+          "text": "INSAT Product Version Information",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/sites/default/files/docs/sftp-mosdac_0.pdf",
+          "text": "SFTP Services for Data Download",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/announcements",
+          "text": "archive",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.facebook.com/mosdac.sac.isro",
+          "text": "",
+          "title": "Facebook",
+          "internal": false
+        },
+        {
+          "url": "http://www.youtube.com/channel/UCDVkai9WIgY2ZgrlF_08Yeg",
+          "text": "",
+          "title": "Youtube (Channel)",
+          "internal": false
+        },
+        {
+          "url": "https://www.mosdac.gov.in/rss.xml",
+          "text": "",
+          "title": "RSS",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/docs/STQC.pdf",
+          "text": "",
+          "title": "Quality Certificate",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/mosdac-feedback",
+          "text": "Feedback",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/about-us",
+          "text": "About Us",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/contact-us",
+          "text": "Contact Us",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/copyright-policy",
+          "text": "Copyright Policy",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/data-access-policy",
+          "text": "Data Access Policy",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/hyperlink-policy",
+          "text": "Hyperlink Policy",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/privacy-policy",
+          "text": "Privacy Policy",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/website-policies",
+          "text": "Website Policies",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/terms-conditions",
+          "text": "Terms & Conditions",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "https://www.mosdac.gov.in/faq-page",
+          "text": "FAQs",
+          "title": "",
+          "internal": true
+        },
+        {
+          "url": "http://www.isro.gov.in",
+          "text": "",
+          "title": "",
+          "internal": false
+        },
+        {
+          "url": "http://www.sac.gov.in",
+          "text": "",
+          "title": "",
+          "internal": false
+        },
+        {
+          "url": "http://www.india.gov.in",
+          "text": "",
+          "title": "",
+          "internal": false
+        },
+        {
+          "url": "http://mygov.in/",
+          "text": "",
+          "title": "",
+          "internal": false
+        },
+        {
+          "url": "http://www.digitalindia.gov.in/",
+          "text": "",
+          "title": "",
+          "internal": false
+        },
+        {
+          "url": "http://data.gov.in",
+          "text": "",
+          "title": "",
+          "internal": false
+        }
+      ],
+      "forms": [
+        {
+          "action": "/",
+          "method": "post",
+          "inputs": 5
+        },
+        {
+          "action": "/",
+          "method": "post",
+          "inputs": 4
+        }
+      ],
+      "meta_tags": {
+        "Content-Type": "text/html; charset=utf-8",
+        "title": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC)",
+        "description": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) for satellite data reception, processing, analysis and dissemination.",
+        "abstract": "Meteorological and Oceanographic Satellite Data Archival Centre (MOSDAC) is a Data Centre of Space Applications Centre (SAC) and has facility for satellite data reception, processing, analysis and dissemination. MOSDAC is operationally supplying earth observation data from Indian meteorology and oceanography satellites.",
+        "keywords": "Meteorological, Oceanographic, Satellite, Data, Archival, Data Centre",
+        "generator": "MOSDAC",
+        "MobileOptimized": "width",
+        "HandheldFriendly": "true",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "lang": "en"
+      },
+      "structured_data": [],
+      "content_hash": "b8d000e4914b521cb9fae3d2cb843285",
+      "page_type": "home",
+      "content_categories": [
+        "commerce",
+        "services"
+      ],
+      "key_phrases": [
+        "forecast",
+        "wave",
+        "heavy",
+        "rain",
+        "state",
+        "heavy rain",
+        "wave prediction",
+        "state forecast",
+        "rain heavy",
+        "current forecast"
+      ],
+      "file_type": "html",
+      "file_size": null,
+      "last_modified": null,
+      "document_metadata": {},
+      "tables": [],
+      "raw_content": null
+    }
+  }
+}
