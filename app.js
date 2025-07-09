@@ -8,7 +8,7 @@ const graphContainer = document.getElementById('graph-container');
 const maximizeButton = document.querySelector('.maximize-button');
 
 // API config (IMPORTANT: Do NOT expose this in production)
-const OPENROUTER_API_KEY = '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';
+const OPENROUTER_API_KEY = 'API_KEY';
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
 let isOpen = false;
