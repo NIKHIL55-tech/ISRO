@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MOSDAC Help Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Chat Widget Button -->
+  <div id="chat-widget-button" class="chat-widget-button" onclick="toggleChat()">
+    <div class="button-content">
+      <span class="icon">🛰️</span>
+      <span class="text">MOSDAC Help</span>
+    </div>
+  </div>
+
+  <!-- Chat Widget Container -->
+  <div id="chat-widget-container" class="chat-widget-container">
+    <div class="chat-header">
+      <div class="header-content">
+        <div class="header-text">
+          <h1>MOSDAC Help Assistant</h1>
+          <p class="status">Space Applications Centre, ISRO</p>
+        </div>
+        <div class="header-buttons">
+          <button class="graph-toggle" onclick="toggleGraph()" title="View Knowledge Graph">
+            <span>🧠</span>
+          </button>
+          <button class="nav-tree-button" onclick="openNavTree()" title="Open Navigation Tree">
+            <span>🌳</span>
+          </button>
+          <button class="maximize-button" onclick="toggleMaximize()" title="Maximize">
+            <span>⛶</span>
+          </button>
+          <button class="minimize-button" onclick="toggleChat()">
+            <span>−</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-body">
+      <div id="chat-box" class="chat-window"></div>
+
+      <div id="typing" class="typing">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+
+      <div id="graph-container" class="graph-container">
+        <div class="graph-header">
+          <h3>Knowledge Graph Visualization</h3>
+          <button class="close-graph" onclick="toggleGraph()">×</button>
+        </div>
+        <div id="cy"></div>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="user-input" placeholder="Ask about MOSDAC data, products, or services..." autocomplete="off" />
+      <button class="send-button">➤</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/cytoscape@3.24.0/dist/cytoscape.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

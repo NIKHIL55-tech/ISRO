@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MOSDAC Navigation Tree</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #0b3d91;
+      --primary-dark: #061f4a;
+      --primary-light: #105bd8;
+      --secondary: #dd361c;
+      --accent: #02bfe7;
+      --text-primary: #212121;
+      --text-secondary: #323a45;
+      --text-light: #5b616b;
+      --background: #ffffff;
+      --background-light: #f1f1f1;
+      --border: #d6d7d9;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.5;
+      color: var(--text-primary);
+      background: var(--background-light);
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 300px;
+      background: var(--background);
+      border-right: 1px solid var(--border);
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 2rem;
+      overflow-y: auto;
+    }
+
+    .header {
+      background: var(--primary);
+      color: white;
+      padding: 1rem;
+      margin: -1rem -1rem 1rem -1rem;
+    }
+
+    .header h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .header p {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      margin: 0;
+    }
+
+    .tree-container {
+      margin-top: 1rem;
+    }
+
+    .tree-node {
+      margin: 0.5rem 0;
+    }
+
+    .tree-item {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .tree-item:hover {
+      background: var(--background-light);
+    }
+
+    .tree-item.active {
+      background: var(--primary-light);
+      color: white;
+    }
+
+    .tree-item .icon {
+      margin-right: 0.5rem;
+      width: 20px;
+      text-align: center;
+    }
+
+    .tree-children {
+      margin-left: 1.5rem;
+      border-left: 1px solid var(--border);
+      padding-left: 0.5rem;
+    }
+
+    .content-header {
+      background: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      margin: -2rem -2rem 2rem -2rem;
+    }
+
+    .content-header h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+      opacity: 0.8;
+    }
+
+    .breadcrumb span {
+      display: flex;
+      align-items: center;
+    }
+
+    .breadcrumb span:not(:last-child)::after {
+      content: "›";
+      margin-left: 0.5rem;
+    }
+
+    .content-body {
+      background: var(--background);
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: var(--shadow-md);
+    }
+
+    .help-widget {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="header">
+        <h1>MOSDAC Navigation</h1>
+        <p>Browse Data & Services</p>
+      </div>
+      <div class="tree-container" id="navigationTree">
+        <!-- Tree will be populated by JavaScript -->
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="content-header">
+        <h2 id="contentTitle">Welcome to MOSDAC</h2>
+        <div class="breadcrumb" id="breadcrumb">
+          <span>Home</span>
+        </div>
+      </div>
+      <div class="content-body" id="contentBody">
+        <p>Select a navigation item from the tree to view its contents.</p>
+      </div>
+    </main>
+
+    <!-- Help Widget Container -->
+    <div class="help-widget">
+      <iframe src="index.html" style="border: none; width: 400px; height: 600px;"></iframe>
+    </div>
+  </div>
+
+  <script>
+    // Navigation tree data structure
+    const navigationData = {
+      missions: {
+        label: 'Missions',
+        icon: '🛰️',
+        children: {
+          insat3d: {
+            label: 'INSAT-3D',
+            icon: '📡',
+            content: 'INSAT-3D satellite information and data products.'
+          },
+          insat3dr: {
+            label: 'INSAT-3DR',
+            icon: '📡',
+            content: 'INSAT-3DR satellite information and data products.'
+          },
+          scatsat1: {
+            label: 'SCATSAT-1',
+            icon: '📡',
+            content: 'SCATSAT-1 satellite information and data products.'
+          }
+        }
+      },
+      data: {
+        label: 'Data Access',
+        icon: '📊',
+        children: {
+          satellite: {
+            label: 'Satellite Data',
+            icon: '📥',
+            content: 'Access and download satellite data products.'
+          },
+          weather: {
+            label: 'Weather Data',
+            icon: '🌤️',
+            content: 'Access meteorological and weather forecast data.'
+          },
+          ocean: {
+            label: 'Ocean Data',
+            icon: '🌊',
+            content: 'Access oceanographic data and products.'
+          }
+        }
+      },
+      tools: {
+        label: 'Tools & Services',
+        icon: '🔧',
+        children: {
+          visualization: {
+            label: 'Data Visualization',
+            icon: '📈',
+            content: 'Tools for visualizing satellite and weather data.'
+          },
+          analysis: {
+            label: 'Data Analysis',
+            icon: '📊',
+            content: 'Tools for analyzing meteorological and oceanographic data.'
+          },
+          download: {
+            label: 'Download Manager',
+            icon: '⬇️',
+            content: 'Manage and schedule data downloads.'
+          }
+        }
+      }
+    };
+
+    // Function to create tree nodes
+    function createTreeNode(key, data, path = []) {
+      const node = document.createElement('div');
+      node.className = 'tree-node';
+      
+      const item = document.createElement('div');
+      item.className = 'tree-item';
+      item.innerHTML = `
+        <span class="icon">${data.icon}</span>
+        <span>${data.label}</span>
+      `;
+      
+      const currentPath = [...path, key];
+      
+      item.onclick = () => {
+        // Remove active class from all items
+        document.querySelectorAll('.tree-item').forEach(el => el.classList.remove('active'));
+        item.classList.add('active');
+        
+        // Update content
+        updateContent(data.label, currentPath, data.content);
+      };
+      
+      node.appendChild(item);
+      
+      if (data.children) {
+        const childrenContainer = document.createElement('div');
+        childrenContainer.className = 'tree-children';
+        
+        Object.entries(data.children).forEach(([childKey, childData]) => {
+          childrenContainer.appendChild(createTreeNode(childKey, childData, currentPath));
+        });
+        
+        node.appendChild(childrenContainer);
+      }
+      
+      return node;
+    }
+
+    // Function to update content area
+    function updateContent(title, path, content) {
+      document.getElementById('contentTitle').textContent = title;
+      
+      // Update breadcrumb
+      const breadcrumb = document.getElementById('breadcrumb');
+      breadcrumb.innerHTML = '';
+      
+      breadcrumb.appendChild(createBreadcrumbItem('Home'));
+      path.forEach(key => {
+        let node = navigationData;
+        let pathSoFar = [];
+        for (const p of path) {
+          pathSoFar.push(p);
+          if (p === key) break;
+          node = node[p].children;
+        }
+        breadcrumb.appendChild(createBreadcrumbItem(node[key].label));
+      });
+      
+      // Update content
+      document.getElementById('contentBody').innerHTML = `
+        <p>${content || 'Content for this section is being developed.'}</p>
+      `;
+    }
+
+    // Function to create breadcrumb items
+    function createBreadcrumbItem(text) {
+      const span = document.createElement('span');
+      span.textContent = text;
+      return span;
+    }
+
+    // Initialize navigation tree
+    window.onload = () => {
+      const treeContainer = document.getElementById('navigationTree');
+      Object.entries(navigationData).forEach(([key, data]) => {
+        treeContainer.appendChild(createTreeNode(key, data));
+      });
+    };
+  </script>
+</body>
+</html> 
